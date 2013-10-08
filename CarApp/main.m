@@ -123,6 +123,7 @@ int main(int argc, const char * argv[])
         NSLog(@"Location of the Car: %i", [newCar getLocation]);
  */
     }
+    NSLog(@"Here is Lui");
     return 0;
 }
 
