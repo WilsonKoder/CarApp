@@ -67,7 +67,8 @@ int main(int argc, const char * argv[])
         NSLog(@"Please give the second car's location:");
         scanf("%d", &tmp);
         [Car2 setLocation:tmp];
-
+        NSLog(@"lol");
+        
         do {
             NSLog(@"How you want to move the Car: e.g. (Car1|Car2) (F|B) <int>");
             scanf("%[^\n]", strIn);
